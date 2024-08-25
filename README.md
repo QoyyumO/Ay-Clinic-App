@@ -1,50 +1,85 @@
-# Welcome to your Expo app 👋
+# Clinic App Design
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This project is a mobile application designed for clinic management using React Native. The app provides features such as managing patient biodata, clinical records, and appointment scheduling.
 
-## Get started
+## Table of Contents
 
-1. Install dependencies
+- [Overview](#overview)
+- [Features](#features)
+- [Screens](#screens)
+- [Installation](#installation)
+- [Running the App](#running-the-app)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
 
+## Overview
+
+The Clinic App Design project is aimed at providing an intuitive and user-friendly interface for managing clinical records. The app is built using React Native and supports basic operations such as entering and validating patient biodata, clinical records, and appointment scheduling.
+
+## Features
+
+- **Patient Biodata Management:** Users can input and manage the biodata of patients.
+- **Clinical Records:** Allows users to add, edit, and validate clinical records.
+- **Date Validation:** Ensures dates are entered in the correct format (DD-MM-YYYY).
+- **Yes/No Input Validation:** Provides validation for inputs that require a yes/no response.
+- **Navigation Tabs:** Easy navigation between Biodata and Clinical Records tabs.
+
+## Screens
+
+### Biodata Tab
+
+- **Fields:** First Name, Surname, Middle Name, Date of Birth, Home Address, Date of Registration, etc.
+- **Validation:** Date of Birth and Date of Registration fields are validated for the correct format.
+
+### Clinical Record Tab
+
+- **Fields:** Clinic Date, Nature of Ailment, Medicine Prescribed, Procedure Undertaken, Date of Next Appointment.
+- **Validation:** Clinic Date and Next Appointment Date fields are validated for the correct format.
+
+### Layout
+
+- **Navigation:** The app uses tabs for navigation between the Biodata and Clinical Records screens.
+- **Header:** Displays the app's logo and the current tab name.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/clinic-app-design.git
+   ```
+   
+2.Navigate to the project directory:
+
+   ```bash
+   cd clinic-app-design
+   ```
+
+3.Install the dependencies:
    ```bash
    npm install
    ```
 
-2. Start the app
+## Running the App
+
+1. Start the development server:
 
    ```bash
-    npx expo start
+   npx expo start
    ```
+   
+2.Use an Android or iOS emulator to run the app, or scan the QR code provided by Expo to run it on a physical device.
 
-In the output, you'll find options to open the app in a
+## Technologies Used
+- React Native: For building the mobile application.
+- Expo Router: For navigation between different screens.
+- TypeScript: For static type checking.
+- KeyboardAwareScrollView: For handling keyboard inputs efficiently.
+- Ionicons: For tab icons.
+- Custom Hooks: To manage color schemes dynamically.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## License
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This project is licensed under the MIT License. See the LICENSE file for more details.
