@@ -10,7 +10,6 @@ This project is a mobile application designed for clinic management using React 
 - [Installation](#installation)
 - [Running the App](#running-the-app)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Overview
